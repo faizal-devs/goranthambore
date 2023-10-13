@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios';
 // import Breadcrumb from '../components/breadcrumb/Breadcrumb';
 // import breadcrumbBg from '../assets/images/breadcrumb/1.jpg';
 import Subscribe from '../components/subscribe/Subscribe';
@@ -7,10 +8,21 @@ import Footer from '../Inc/footer';
 import BlogStyleOne from '../components/blog/BlogStyleOne';
 
 const Blog = () => {
+    // const [mydata, setdata]=useState([])
+    // const mygetblog=()=>{
+    //     axios.get('http://localhost:5000/api/blog').then((res)=>{
+    //         console.log(res.data);
+    //         setdata(res.data)
+    //     })
+    // }
+    // useEffect(()=>{
+    //     mygetblog();
+    // },[]);
+
     return (
         <>
             <HeaderTop />
-            <section class="page-banner overlay pt-170 pb-170 bg_cover" style={{backgroundimage: `url("assets/images/bg/page-bg.jpg");`}}>
+            <section class="page-banner overlay pt-170 pb-170 bg_cover" style={{backgroundimage: `url("assets/images/bg/page-bg.jpg")`}}>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">

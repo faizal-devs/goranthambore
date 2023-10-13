@@ -9,6 +9,7 @@ import aboutimg5 from "../assets/images/bg/page-bg.jpg";
 import Footer from '../Inc/footer';
 import HeaderTop from '../Inc/headerTop';
 const Aboutus = () => {
+    
     return (
 <>
 <HeaderTop></HeaderTop>
@@ -17,11 +18,11 @@ const Aboutus = () => {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-lg-10">
-                    <div classNameName="page-banner-content text-center text-white">
-                        <h1 classNameName="page-title">About Us</h1>
-                        <ul classNameName="breadcrumb-link text-white">
+                    <div className="page-banner-content text-center text-white">
+                        <h1 className="page-title">About Us</h1>
+                        <ul className="breadcrumb-link text-white">
                             <li><a href="index.html">Home</a></li>
-                            <li classNameName="active">About Us</li>
+                            <li className="active">About Us</li>
                         </ul>
                     </div>
                 </div>
@@ -240,7 +241,7 @@ const Aboutus = () => {
     </section>
     {/* <!--====== End What We Section ======--> */}
     {/* <!--====== Start CTA Section ======--> */}
-    <section className="cta-bg overlay bg_cover pt-150 pb-150" style={{backgroundImage: `url("assets/images/bg/cta-bg.jpg");`}}>
+    <section className="cta-bg overlay bg_cover pt-150 pb-150" style={{backgroundImage: `url("assets/images/bg/cta-bg.jpg")`}}>
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-xl-8">

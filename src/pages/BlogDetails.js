@@ -1,7 +1,6 @@
 import React from 'react';
-import HeaderTop from '../common/header/HeaderTop';
-import HeaderBottomTwo from '../common/header/HeaderBottomTwo';
-import FooterTwo from '../common/footer/FooterTwo';
+import HeaderTop from '../Inc/headerTop';
+import Footer from '../Inc/footer';
 import BlogContent from '../components/blog-details/BlogContent';
 import BlogPostNavigation from '../components/blog-details/BlogPostNavigation';
 import BlogAuthor from '../components/blog-details/BlogAuthor';
@@ -12,14 +11,14 @@ import TagsWidget from '../components/widgets/TagsWidget';
 import ContactWidget from '../components/widgets/ContactWidget';
 import QuoteWidget from '../components/widgets/QuoteWidget';
 import BlogBreadcrumb from '../components/blog-details/BlogBreadcrumb';
-import BlogBreadcrumbBg from '../assets/images/breadcrumb/1.jpg';
+import BlogBreadcrumbBg from "../assets/images/bg/page-bg.jpg"
 
 const BlogDetails = () => {
     return (
         <>
 
             <HeaderTop />
-            <HeaderBottomTwo />
+            
             <BlogBreadcrumb 
                 BlogBreadcrumbBg={BlogBreadcrumbBg}
                 heading="Complete Solution For Your Land And Garden Design."
@@ -45,7 +44,7 @@ const BlogDetails = () => {
                     </div>
                 </div>
             </div>
-            <FooterTwo />
+            <Footer />
         </>
     )
 }

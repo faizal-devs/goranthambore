@@ -58,7 +58,7 @@ const Bookingpage = () => {
         </div>
     </section> */}
 <HeaderTop></HeaderTop>
-<section class="page-banner overlay pt-170 pb-170 bg_cover" style={{backgroundimage: `url("assets/images/bg/page-bg.jpg");`}}>
+<section class="page-banner overlay pt-170 pb-170 bg_cover" style={{backgroundimage: `url("assets/images/bg/page-bg.jpg")`}}>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">

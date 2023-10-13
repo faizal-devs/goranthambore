@@ -965,7 +965,9 @@
   padding-bottom: 95px; }
 
 .pb-100 {
-  padding-bottom: 100px; }
+  padding-bottom: 100px; 
+  margin-top: 106px;
+}
 
 .pb-105 {
   padding-bottom: 105px; }

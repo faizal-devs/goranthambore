@@ -3,13 +3,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 // import { FaLevelUpAlt } from "react-icons/fa";
+
 import Home from '../src/pages/home';
-
-
-
-
-
-//CSS
 import "./assets/fonts/flaticon/flaticon_gowilds.css";
 import "./assets/vendor/slick/slick.css";
 import "./assets/fonts/fontawesome/css/all.min.css";
@@ -34,6 +29,7 @@ import Chambal_Safari_Ranthambore from './pages/Chambal_Safari_Ranthambore';
 import Contact from './pages/Contact';
 import Aboutus from './pages/About_us';
 import Blog from './pages/Blog';
+import BlogDetails from './pages/BlogDetails';
 
 function App() {
   return (
@@ -45,6 +41,7 @@ function App() {
             <Route path="/service-one" exact  element={<ServiceOne />} />
             <Route path="/about-us" exact  element={<Aboutus />} />
             <Route path="/blog" exact  element={<Blog />} />
+            <Route path="/BlogDetails" exact  element={<BlogDetails />} />
             <Route path="/booking-page" exact  element={<Bookingpage />} />
             <Route path="/our-service" exact  element={<ServiceDetails />} />
             <Route path="/Trinetra-Ganesh-Ji-Temple" exact  element={<Trinetra_Ganesh_Ji_Temple/>} />

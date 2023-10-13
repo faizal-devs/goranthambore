@@ -1,11 +1,17 @@
 import React from 'react';
 import Nav from './nav';
-import logo from "../assets/images/logo/logo-black.png"
+import logo from "../assets/images/logo/logo4.png"
 
 
 // import { FaPhoneAlt, FaClock } from 'react-icons/fa';
 
 const HeaderTop = () => {
+    const logoimg={
+        width: '15%',
+        aspectRatio: '3/2',
+        ObjectFit:'contain',
+        mixBlentMode: 'color-burn'
+    }
     return (
         <header className="header-area header-three">
 
@@ -15,7 +21,7 @@ const HeaderTop = () => {
                     <div className="col-xl-3 d-none d-xl-block">
                   
                         <div className="site-brading">
-                            <a href="index.html" className="brand-logo">
+                            <a href="/" className="brand-logo,logoimg" style={{logoimg, width: '269px'}}>
                             <img src={logo} alt="Logo" /></a>
                         </div>
                     </div>
@@ -31,7 +37,7 @@ const HeaderTop = () => {
                                             </div>
                                             <div className="info">
                                                 <span className="title">Office Address</span>
-                                                <h5>583 Main Street, USA</h5>
+                                                <h5>PNB Bank Ranthambore road, Sawai Madhopur</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -44,7 +50,7 @@ const HeaderTop = () => {
                                             </div>
                                             <div className="info">
                                                 <span className="title">Email Address</span>
-                                                <h5><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#7c0f090c0c130e083c1b111d1510521f1311"><span className="__cf_email__" data-cfemail="25565055554a5751654248444c490b464a48">[email&#160;protected]</span></a></h5>
+                                                <h5><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#7c0f090c0c130e083c1b111d1510521f1311"><span className="__cf_email__" data-cfemail="25565055554a5751654248444c490b464a48">&#160;Faizalshek@gmail.com</span></a></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -57,7 +63,7 @@ const HeaderTop = () => {
                                             </div>
                                             <div className="info">
                                                 <span className="title">Drop a Line</span>
-                                                <h5><a href="tel:+000(123)45688">+000 (123) 456 88</a></h5>
+                                                <h5><a href="tel:+000(123)45688">+91 9753160722</a></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -75,14 +81,14 @@ const HeaderTop = () => {
                 <div className="primary-menu black-bg">
                   
                     <div className="site-brading d-block d-xl-none">
-                        <a href="index.html" className="brand-logo">
+                        <a href="/" className="brand-logo">
                         <img src={logo} alt="Logo" /></a>
                     </div>
                  
                     <div className="nav-menu">
                 
                         <div className="mobile-logo mb-30 d-block d-xl-none">
-                            <a href="index.html" className="brand-logo">
+                            <a href="/" className="brand-logo">
                             <img src={logo} alt="Site Logo" /></a>
                         </div>
                   
@@ -143,7 +149,7 @@ const HeaderTop = () => {
                             </select>
                         </div>
                         <div className="menu-button d-xl-block d-none">
-                            <a href="contact.html" className="main-btn primary-btn">Book Now<i className="fas fa-paper-plane"></i></a>
+                            <a href="/contact-us" className="main-btn primary-btn">Book Now<i className="fas fa-paper-plane"></i></a>
                         </div>
                         <div className="navbar-toggler">
                             <span></span>

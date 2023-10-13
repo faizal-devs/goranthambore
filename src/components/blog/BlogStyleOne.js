@@ -2,9 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 // import { FaPlus, FaLongArrowAltRight } from 'react-icons/fa';
 import { v4 as uuidv4 } from 'uuid';
-import BlogStyleOneImg1 from '../../assets/images/blog/blog-1.jpg';
-import BlogStyleOneImg2 from '../../assets/images/blog/blog-2.jpg';
-import BlogStyleOneImg3 from '../../assets/images/blog/blog-3.jpg';
+import BlogStyleOneImg1 from '../../assets/images/blog/food1.jpg';
+import BlogStyleOneImg2 from '../../assets/images/blog/food2.jpg';
+import BlogStyleOneImg3 from '../../assets/images/blog/food3.jpg';
 
 const BlogStyleOneData = [
     
@@ -17,7 +17,7 @@ const BlogStyleOneData = [
         heading: 'Complete Solution For Your Land And Garden Design.',
         postPublishDate: '25 October 2021',
         postAuthor: 'Andrew Phili',
-        postLink: '/blog-details',
+        postLink: '/BlogDetails',
     },
     
     {
@@ -29,7 +29,7 @@ const BlogStyleOneData = [
         heading: 'The High Quality Landscape Solutions From Landi',
         postPublishDate: '25 October 2021',
         postAuthor: 'Andrew Phili',
-        postLink: '/blog-details',
+        postLink: '/BlogDetails',
     },
     
     {
@@ -41,7 +41,7 @@ const BlogStyleOneData = [
         heading: '5 Tips For Landscape And Gardening Solutions',
         postPublishDate: '25 October 2021',
         postAuthor: 'Andrew Phili',
-        postLink: '/blog-details',
+        postLink: '/BlogDetails',
     },
 
 ];

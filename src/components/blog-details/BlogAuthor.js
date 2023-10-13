@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { FaFacebookF, FaTwitter, FaPinterestP } from 'react-icons/fa';
-import BlogAuthorAvatar from '../../assets/images/blog/author-avatar.jpg';
+// import { FaFacebookF, FaTwitter, FaPinterestP } from 'react-icons/fa';
+import BlogAuthorAvatar from '../../assets/images/blog/comment-1.jpg';
 
 const BlogAuthor = () => {
     return (
@@ -15,9 +15,9 @@ const BlogAuthor = () => {
                 <div className="post-author-bio">
                     <h5><Link to="/">Eugene Freeman</Link></h5>
                     <p>Et harum quidem rerum facilis est et expedita distinctio. Nam tempore, soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, </p>
-                    <Link to="/"><FaFacebookF /></Link>
+                    {/* <Link to="/"><FaFacebookF /></Link>
                     <Link to="/"><FaTwitter /></Link>
-                    <Link to="/"><FaPinterestP /></Link>
+                    <Link to="/"><FaPinterestP /></Link> */}
                 </div>
             </div>
         </div>

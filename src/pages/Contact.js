@@ -46,8 +46,7 @@ const Contact = () => {
                             </div>
                             <div class="info">
                                 <span class="title">Office Location</span>
-                                <p>55 Main Street, 2nd Floor
-                                    New York City</p>
+                                <p>PNB Bank Ranthambore road, Sawai Madhopury</p>
                             </div>
                         </div>
                     </div>
@@ -59,8 +58,8 @@ const Contact = () => {
                             </div>
                             <div class="info">
                                 <span class="title">Email Address</span>
-                                <p><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#85f6f0f5f5eaf7f1ecebe3eac5e2e8e4ece9abe6eae8"><span class="__cf_email__" data-cfemail="22515752524d50564b4c444d62454f434b4e0c414d4f">[email&#160;protected]</span></a></p>
-                                <p><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#c3b7b1a2b5a6afa2a7b5a6adb7b6b1a6edada6b7">traveladventure.net</a></p>
+                                <p><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#85f6f0f5f5eaf7f1ecebe3eac5e2e8e4ece9abe6eae8"><span class="__cf_email__" data-cfemail="22515752524d50564b4c444d62454f434b4e0c414d4f">&#160;Faizalshek@gmail.com</span></a></p>
+                                <p><a href="https://demo.webtend.net/cdn-cgi/l/email-protection#c3b7b1a2b5a6afa2a7b5a6adb7b6b1a6edada6b7">MetInfoTechSolution</a></p>
                             </div>
                         </div>
                     </div>
@@ -72,8 +71,7 @@ const Contact = () => {
                             </div>
                             <div class="info">
                                 <span class="title">Hotline</span>
-                                <p><a href="tel:+000(123)45688">+000 (123) 456 88</a></p>
-                                <p><a href="tel:+8596320">+859 63 20</a></p>
+                                <p><a href="tel:+919753160722">+91 9753160722</a></p>
                             </div>
                         </div>
                     </div>

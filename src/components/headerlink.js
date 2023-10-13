@@ -21,7 +21,7 @@ const Headerlink = () => {
                         <div className="col-xl-6 col-lg-6 col-md-6">
                             <div className="about-text-wrapper">
                                 <div className="section-title mr-100 mb-40">
-                                    <span>About Landi</span>
+                                    <span>Go Ranthambore</span>
                                     <h2 className="mb-30">We Have 20 Years of Experience in Garden Landscape Service</h2>
                                     <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. Combined with a handful of model sentence structures,</p>
                                 </div>

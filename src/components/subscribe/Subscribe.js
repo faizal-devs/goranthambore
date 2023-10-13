@@ -1,5 +1,5 @@
 import React from 'react';
-import SubscribeBg from '../../assets/images/subscribe/subscribe.jpg';
+import SubscribeBg from '../../assets/images/blog/vec.jpg';
 
 const Subscribe = () => {
     return (
@@ -12,7 +12,7 @@ const Subscribe = () => {
                                 <h2>Get News Updates Special Event Notices And <br /> More When You Join Our Email List</h2>
                                 <form action="#">
                                     <input type="text" placeholder="Enter Your Email" />
-                                    <button className="l-btn pl-60 pr-60 fw-light">Subscribe</button>
+                                    <button className="l-btn pl-60 pr-60 fw-light" style={{marginRight: '658px', marginTop: '30px'}}>Subscribe</button>
                                 </form>
                             </div>
                         </div>

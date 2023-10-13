@@ -31,6 +31,9 @@ const Home = () => {
 <FifthSection></FifthSection>
 <SixthSection></SixthSection>
   <Gallery/>
+  <br></br>
+  <br></br>
+  <br></br>
 <Testimonials />
  <Blogsection/>
   <Footer/>

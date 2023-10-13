@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { FaQuoteLeft, FaFacebookF, FaTwitter, FaPinterestP } from 'react-icons/fa';
-import BlogContentImg1 from '../../assets/images/blog/bl-1.jpg';
-import BlogContentImg2 from '../../assets/images/blog/bl-4.jpg';
+// import { FaQuoteLeft, FaFacebookF, FaTwitter, FaPinterestP } from 'react-icons/fa';
+import BlogContentImg1 from '../../assets/images/blog/5.png';
+import BlogContentImg2 from '../../assets/images/blog/5.png';
 
 const BlogContent = () => {
     return (
@@ -19,7 +19,7 @@ const BlogContent = () => {
                         and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
                     <div className="quote-block text-center">
                         <div className="quote-icon">
-                            <FaQuoteLeft />
+                            {/* <FaQuoteLeft /> */}
                         </div>
                         <p>Combined with a handful of model sentence structures, generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words
                             etc.
@@ -45,9 +45,9 @@ const BlogContent = () => {
                             <div className="post-share">
                                 <h5>Share:</h5>
                                 <ul>
-                                    <li><Link to="/"><FaFacebookF /></Link></li>
+                                    {/* <li><Link to="/"><FaFacebookF /></Link></li>
                                     <li><Link to="/"><FaTwitter /></Link></li>
-                                    <li><Link to="/"><FaPinterestP /></Link></li>
+                                    <li><Link to="/"><FaPinterestP /></Link></li> */}
                                 </ul>
                             </div>
                         </div>

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { FaArrowRight } from 'react-icons/fa';
-import BlogCommentAvatar1 from '../../assets/images/blog/c-1.png';
-import BlogCommentAvatar2 from '../../assets/images/blog/c-2.png';
+// import { FaArrowRight } from 'react-icons/fa';
+import BlogCommentAvatar1 from '../../assets/images/blog/quote.png';
+import BlogCommentAvatar2 from '../../assets/images/blog/quote.png';
 
 const BlogComments = () => {
     return (
@@ -94,7 +94,9 @@ const BlogComments = () => {
                         <div className="col-12">
                             <input type="url" placeholder="Website" />
                             <textarea placeholder="Write Your Comments..."></textarea>
-                            <button className="l-btn">Post Comment <FaArrowRight /></button>
+                            <button className="l-btn">Post Comment 
+                            {/* <FaArrowRight /> */}
+                            </button>
                         </div>
                     </div>
                 </form>

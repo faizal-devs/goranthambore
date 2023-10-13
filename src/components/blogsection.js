@@ -1,8 +1,8 @@
 import React from 'react';
 // import { FaPhoneAlt, FaClock } from 'react-icons/fa';
-import blogimg from "../assets/images/blog/blog-7.jpg"
-import blogimg2 from "../assets/images/blog/blog-8.jpg"
-import blogimg3 from "../assets/images/blog/blog-9.jpg"
+import blogimg from "../assets/images/blog/food1.jpg"
+import blogimg2 from "../assets/images/blog/food2.jpg"
+import blogimg3 from "../assets/images/blog/food3.jpg"
 const Blogsection = () => {
     return (
         <section className="blog-section pt-100 pb-60">

@@ -4,20 +4,28 @@ import placeimg from "../assets/images/place/single-place-1.jpg"
 import placeimg2 from "../assets/images/place/single-place-2.jpg"
 import placeimg3 from "../assets/images/place/single-place-3.jpg"
 import placeimg4 from "../assets/images/place/single-place-4.jpg"
-import postbannerimg from "../assets/images/blog/banner-1.jpg"
-import thumnailimg from "../assets/images/place/thumb-1.jpg"
-import thumnailimg2 from "../assets/images/place/thumb-2.jpg"
-import thumnailimg3 from "../assets/images/place/thumb-3.jpg"
+import bannerimg from "../assets/images/bg/page-bg.jpg"
+// import thumnailimg from "../assets/images/place/thumb-1.jpg"
+// import thumnailimg2 from "../assets/images/place/thumb-2.jpg"
+// import thumnailimg3 from "../assets/images/place/thumb-3.jpg"
 // import placeimg9 from "../assets/images/place/single-place-9.jpg"
 // import placeimg0 from "../assets/images/place/single-place-10.jpg"
 import HeaderTop from '../Inc/headerTop';
 import Footer from '../Inc/footer';
 import Bread_crumbs from '../components/Bread_crumbs';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+
+
+// import required modules
+import { Navigation } from 'swiper/modules';
 const Chambal_Safari_Ranthambore = () => {
     return (
 <>
 <HeaderTop></HeaderTop>
-<section class="page-banner overlay pt-170 pb-170 bg_cover" style={{backgroundimage: `url("assets/images/bg/page-bg.jpg");`}}>
+<section class="page-banner overlay pt-170 pb-170 bg_cover" style={{ backgroundImage: `url(${bannerimg})` }}>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
@@ -34,30 +42,42 @@ const Chambal_Safari_Ranthambore = () => {
         </section>
         <section class="place-details-section">
             {/* <!--=== Place Slider ===--> */}
-            <div class="place-slider-area overflow-hidden wow fadeInUp">
-                <div class="place-slider">
-                    <div class="place-slider-item">
+            <Swiper 
+spaceBetween={30}
+slidesPerView={1}
+onSlideChange={()=>console.log("slide change")}
+onSwiper={(Swiper)=>console.log(Swiper)}
+navigation={true} modules={[Navigation]} className="mySwiper">
+<SwiperSlide>   
+ <div class="place-slider-item">
                         <div class="place-img">
                             <img src={placeimg} alt="Place Image"/>
                         </div>
                     </div>
-                    <div class="place-item">
+                    </SwiperSlide>
+<SwiperSlide>
+<div class="place-item">
                         <div class="place-img">
-                            <img src={placeimg2}alt="Place Image"/>
+                            <img src={placeimg3}alt="Place Image"/>
                         </div>
                     </div>
-                    <div class="place-slider-item">
+</SwiperSlide>
+<SwiperSlide>
+      
+<div class="place-slider-item">
                         <div class="place-img">
                             <img src={placeimg3} alt="Place Image"/>
                         </div>
                     </div>
-                    <div class="place-slider-item">
+</SwiperSlide>
+<SwiperSlide>
+<div class="place-slider-item">
                         <div class="place-img">
                             <img src={placeimg4} alt="Place Image"/>
                         </div>
                     </div>
-                </div>
-            </div>
+</SwiperSlide>
+</Swiper>
             <div class="container">
                 {/* <!--=== Tour Details Wrapper ===--> */}
                 <div class="tour-details-wrapper pt-80">
@@ -284,85 +304,7 @@ const Chambal_Safari_Ranthambore = () => {
                                 </div>
                             </div>
                           
-                        <div class="col-xl-4">
-                            {/* <!--=== Sidebar Widget Area ===--> */}
-                            <div class="sidebar-widget-area pt-60 pl-lg-30">
-                                <div class="sidebar-widget booking-info-widget wow fadeInUp mb-40">
-                                    <h4 class="widget-title">Tour Information</h4>
-                                    <ul class="info-list">
-                                        <li><span><i class="far fa-user-circle"></i>Max Guests<span>35</span></span></li>
-                                        <li><span><i class="far fa-user-circle"></i>Minimum Age<span>12+</span></span></li>
-                                        <li><span><i class="far fa-map-marker-alt"></i>Tour Location<span>Thailand</span></span></li>
-                                        <li><span><i class="far fa-globe"></i>Language<span>English</span></span></li>
-                                    </ul>
-                                </div>
-                                {/* <!--=== Recent Place Widget ===--> */}
-                                <div class="sidebar-widget recent-place-widget mb-40 wow fadeInUp">
-                                    <h4 class="widget-title">Last Minute Deals</h4>
-                                    <ul class="recent-place-list">
-                                        <li class="place-thumbnail-content">
-                                            <img src={thumnailimg} alt="post thumb"/>
-                                            <div class="place-content">
-                                                <ul class="ratings">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                                <h5><a href="tour-details.html">Infinity Pool Nears
-                                                    Beach</a></h5>
-                                                <span class="price"><span class="text">From :</span><span class="currency">$</span>45.23</span>
-                                            </div>
-                                        </li>
-                                        <li class="place-thumbnail-content">
-                                            <img src={thumnailimg2} alt="post thumb"/>
-                                            <div class="place-content">
-                                                <ul class="ratings">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star-half-alt"></i></li>
-                                                </ul>
-                                                <h5><a href="tour-details.html">Infinity Pool Nears
-                                                    Beach</a></h5>
-                                                <span class="price"><span class="text">From :</span><span class="currency">$</span>45.23</span>
-                                            </div>
-                                        </li>
-                                        <li class="place-thumbnail-content">
-                                            <img src={thumnailimg3} alt="post thumb"/>
-                                            <div class="place-content">
-                                                <ul class="ratings">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                </ul>
-                                                <h5><a href="tour-details.html">Infinity Pool Nears
-                                                    Beach</a></h5>
-                                                <span class="price"><span class="text">From :</span><span class="currency">$</span>45.23</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                {/* <!--=== Banner Widget ===--> */}
-                                <div class="sidebar-widget sidebar-banner-widget wow fadeInUp mb-40">
-                                    <div class="banner-widget-content">
-                                        <div class="banner-img">
-                                            <img src={postbannerimg} alt="Post Banner"/>
-                                            <div class="hover-overlay">
-                                                <div class="hover-content">
-                                                    <h4 class="title"><a href="#">Swimming Pool</a></h4>
-                                                    <p><i class="fas fa-map-marker-alt"></i>Marrakesh, Morocco</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    
                     </div>
                 </div>
                 </div>
